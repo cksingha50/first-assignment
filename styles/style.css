@@ -454,7 +454,7 @@ footer{
 }
 .email{
   color: #FFF;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -482,14 +482,14 @@ footer{
 }
 .copyright-text{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
 .footer-unsubscribe{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     padding-left: 600px;
