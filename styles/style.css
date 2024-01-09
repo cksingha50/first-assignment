@@ -1,12 +1,14 @@
 body{
     margin: 20px;
     padding: 0;
+    max-width: 1600px;
 }
 
  /* Top banner section starts here */
 
  section{
     margin-top: 130px;
+    max-width: 1320px;
  }
 
 .banner{
@@ -286,9 +288,6 @@ body{
 
 /* Portfolio section style starts here */
 
-.portfolio-script{
-
-}
 .portfolio-subtitle{
     color: #F00;
     font-family: Inter;
@@ -339,3 +338,159 @@ body{
     display: flex;
 }
 
+/* Newsletter section style starts here */
+.newsletter-box{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+
+}
+.letter-pic{
+    width: 150px;
+    height: 150px;
+
+}
+.newsletter-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.newsletter-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 869px;
+    padding-left: 212px;
+
+}
+.newsletter-input{
+    width: 608px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border-style: none;
+    padding-left: 40px;
+
+}
+.subscribe-btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: none;
+    margin-left: -215px;
+    
+}
+.email-box{
+     padding-top: 48px;
+}
+
+
+/* Footer section style */
+footer{
+    background: #070211 ;
+    width: 1600px;
+    height: 609px;
+    color: white;
+    max-width: 1320px;
+    
+}
+
+.footer-top{
+     display: flex;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+     padding-bottom: 50px;
+     width: 1320px;
+     padding-left: 50px;
+     
+}
+.footer-address{
+    padding-top: 120px;
+    padding-left: 510px;
+}
+.footer-location{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+    max-width: 375px;
+}
+.footer-phone{
+      display: flex;
+}
+.call-icon{
+    width: 24px;
+    height: 24px;
+}
+.phone{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: -8px;
+    padding-left: 10px;
+}
+
+.footer-email{
+   display: flex;
+}
+.email-icon{
+  width: 24px;
+  height: 24px;
+}
+.email{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: -8px;
+  padding-left: 10px;
+}
+.social-icons{
+    text-align: center;
+    padding: 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) ;
+
+}
+.facebook,
+.instagram,
+.twitter,
+.linkedin{
+    padding-left: 24px;
+}
+.copyright{
+    display: flex;
+    padding-bottom: 50px;
+    width: 1320px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.copyright-text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-unsubscribe{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 600px;
+}
