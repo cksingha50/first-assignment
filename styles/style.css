@@ -170,3 +170,172 @@ body{
     color: #F00;
 
 }
+
+/* Coming soon section style starts here */
+
+.coming-soon{
+      display: flex;
+}
+.coming-soon-script{
+    text-align: left;
+
+}
+.coming-soon-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+.coming-soon-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+
+}
+.coming-soon-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: -10px;
+
+}
+.coming-pic{
+    width: 463px;
+    height: 463px;
+    padding-left: 94px;
+}
+.coming-soon-info{
+     padding-left: 94px;
+   
+
+}
+.year-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.year-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-top: -10px;
+}
+.coming-soon-info-image{
+    width: 140px;
+    height: 140px;
+
+}
+
+
+/* Holiday sales section style starts here */
+
+.holiday{
+
+    text-align: center;
+
+}
+
+.holiday-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+    
+}
+.holiday-span{
+    color: #F00;
+}
+.holiday-subtitle{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.holiday-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 950px;
+    padding-left: 175px;
+    margin-top: -20px;
+    
+}
+.holiday-pic{
+    width: 1320px;
+    height: 660px;
+    padding-top: 64px;
+}
+
+/* Portfolio section style starts here */
+
+.portfolio-script{
+
+}
+.portfolio-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -20px;
+
+}
+.portfolio-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 896px;
+    margin-top: -20px;
+ 
+}
+.portfolio-img-1,
+.portfolio-img-2, 
+.portfolio-img-3, 
+.portfolio-img-4, 
+.portfolio-img-5,
+.portfolio-img-6{
+    width: 415px;
+    height: auto;
+    border-radius: 16px;
+}
+.portfolio-img-2, 
+.portfolio-img-3,  
+.portfolio-img-5,
+.portfolio-img-6{
+    padding-left: 24px;
+}
+.portfolio-image-row-1{
+    padding-top: 48px;
+    display: flex;
+}
+.portfolio-image-row-2{
+    padding-top: 24px;
+    display: flex;
+}
+
